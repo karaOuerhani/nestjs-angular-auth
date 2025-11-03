@@ -10,7 +10,7 @@ Complete user authentication system with email verification built with NestJS ba
 
 ## Technologies Used
 - **Backend**: NestJS, Prisma ORM, PostgreSQL, JWT, bcrypt, Nodemailer
-- **Frontend**: Angular 17, Reactive Forms, RxJS, PrimeNG, SCSS
+- **Frontend**: Angular 18, Reactive Forms, RxJS, PrimeNG, SCSS
 - **Email Service**: Gmail SMTP integration
 - **Database**: PostgreSQL with Prisma migrations
 
