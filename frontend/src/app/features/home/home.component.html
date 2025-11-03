@@ -1,0 +1,13 @@
+<div class="home-welcome">
+  <div class="welcome-container">
+    <h1>🎉 Bienvenue !</h1>
+    <p>Vous êtes maintenant connecté à votre compte.</p>
+    <p>Cette page est accessible uniquement aux utilisateurs authentifiés.</p>
+
+    <div class="user-info" *ngIf="authService.currentUser$ | async as user">
+      <h3>Informations utilisateur</h3>
+      <p><strong>Nom:</strong> {{ user.name }}</p>
+      <p><strong>Email:</strong> {{ user.email }}</p>
+    </div>
+  </div>
+</div>

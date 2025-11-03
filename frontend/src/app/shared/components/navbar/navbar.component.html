@@ -1,0 +1,14 @@
+<nav class="navbar" *ngIf="isLoggedIn">
+  <div class="navbar-container">
+    <div class="navbar-brand">
+      <h3>Mon Application</h3>
+    </div>
+
+    <div class="navbar-menu">
+      <button class="btn-logout" (click)="logout()">
+        <i class="pi pi-sign-out"></i>
+        Déconnexion
+      </button>
+    </div>
+  </div>
+</nav>
